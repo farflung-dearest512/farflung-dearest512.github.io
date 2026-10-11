@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Sign-in · In Plain Papers</title>
+<link rel="icon" href="../avatar.png">
+<link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<main>
+  <header>
+    <img src="../avatar.png" alt="">
+    <div><h1>Sign-in</h1><p class="tagline">In Plain Papers Studio</p></div>
+  </header>
+  <p id="msg">No sign-in code on this page.</p>
+  <p><button id="copy" hidden>Copy the code</button></p>
+  <p>This page belongs to the channel's own publishing setup. The code never leaves your browser.</p>
+</main>
+<script>
+  const p = new URLSearchParams(location.search);
+  const code = p.get("code"), err = p.get("error");
+  const msg = document.getElementById("msg"), btn = document.getElementById("copy");
+  if (code) {
+    msg.textContent = "Signed in. Copy the code and go back to Claude.";
+    btn.hidden = false;
+    btn.onclick = async () => {
+      try { await navigator.clipboard.writeText(location.href); btn.textContent = "Copied"; }
+      catch (e) { msg.textContent = "Copy failed: copy this page's address instead."; }
+    };
+  } else if (err) {
+    msg.textContent = "Sign-in failed: " + err + " " + (p.get("error_description") || "");
+  }
+</script>
+</body>
+</html>
